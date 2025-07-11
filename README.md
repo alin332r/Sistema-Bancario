@@ -1,24 +1,52 @@
 # 🏦 Sistema Bancário em Python
 
-Projeto desenvolvido como desafio do curso Backend Python da DIO.
+Projeto desenvolvido como parte do desafio do curso **Backend Python da DIO**, agora com versão totalmente **refatorada** utilizando **Programação Orientada a Objetos (POO)** e estrutura modular.
+
+---
 
 ## 🚀 Funcionalidades
-- Depósito
-- Saque (até 3 saques diários, máximo R$ 500,00 por saque)
-- Extrato com histórico das transações e saldo
-- Validação de erros e entradas
-- Registro de data e hora das movimentações
+
+- ✅ Cadastro de usuários com CPF único
+- ✅ Criação de múltiplas contas por usuário
+- ✅ Depósito por conta
+- ✅ Saque com regras:
+  - Máximo de **3 saques por dia**
+  - Valor máximo por saque: **R$ 500,00**
+- ✅ Visualização de extrato individual com histórico de movimentações e saldo
+- ✅ Validação de erros e entradas
+- ✅ Registro de **data e hora** de cada operação
+- ✅ Menu interativo com opções de operação
+
+---
+
+## 🧱 Estrutura do Projeto
+
+O projeto foi dividido em funções e classes para facilitar a manutenção, leitura e escalabilidade do sistema. Utiliza boas práticas de codificação como encapsulamento, modularidade e controle de fluxo.
+
+---
 
 ## 📚 Tecnologias
-- Python 3
+
+- Linguagem: **Python 3.11+**
+- Conceitos:
+  - Programação Orientada a Objetos (POO)
+  - Modularização de código
+  - Manipulação de strings e listas
+  - Validação de entradas
+  - Formatação de datas e valores monetários
+
+---
 
 ## 🔧 Como executar
-1. Clone este repositório.
-2. Execute o arquivo `banco.py` no terminal:
+
 ```bash
+# 1. Clone este repositório
 git clone https://github.com/alin332r/Sistema-Bancario.git
-Entre na pasta do projeto:
+
+# 2. Acesse a pasta do projeto
 cd Sistema-Bancario
-Execute o arquivo banco.py:
+
+# 3. Execute o sistema
 python banco.py
+
 
